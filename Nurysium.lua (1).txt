@@ -793,11 +793,11 @@ end)
 local LocalPlayer = Players.LocalPlayer
 
 local main = interface.create({
-	name = 'Nurysium',
+	name = 'SHIN X HUB',
 	parent = gethui()
 })
 
-local blatant = main.create_tab('Blatant', 'rbxassetid://76028667326757')
+local blatant = main.create_tab('General', 'rbxassetid://76028667326757')
 local visuals = main.create_tab('Visuals', 'rbxassetid://18782727355')
 local misc = main.create_tab('Misc', 'rbxassetid://18782883071')
 
@@ -835,26 +835,6 @@ do
 end
 
 --// win sound
-
-do
-	local win_sound = blatant.create_module({
-		text = 'Win Sound',
-		flag = 'win_sound',
-		side = 'right'
-	})
-end
-
---// hit sound
-
-do
-	local hit_sound = blatant.create_module({
-		text = 'Hit Sound',
-		flag = 'hit_sound',
-		side = 'right'
-	})
-end
-
---// no slow
 
 do
 	local no_slow = blatant.create_module({
