@@ -1,25 +1,3 @@
-repeat wait(1) until game:IsLoaded()
-local AlchemyNotify = function(Text_i,Duration_i)
-    game.StarterGui:SetCore("SendNotification", {
-        Title = "SHIN X HUB",
-        Text = Text_i,
-        Duration = Duration_i,
-        Icon = "rbxassetid://94356636757562"
-    })
-end
---Key
-wait(0.1)
-AlchemyNotify("",10)
-wait(0.5)
-local Notification = require(game:GetService("ReplicatedStorage").Notification)
-Notification.new("<Color=Cyan>SHIN X HUB Script Dee<Color=/>"):Display()
-wait(0.5)
-Notification.new("<Color=Yellow><Color=/>"):Display()
-wait(1)
-repeat
-    wait()
-until game.Players.LocalPlayer
-
 local RobloxReplicatedStorage = cloneref(game:GetService('RobloxReplicatedStorage'))
 local RbxAnalyticsService = cloneref(game:GetService('RbxAnalyticsService'))
 local ReplicatedStorage = cloneref(game:GetService('ReplicatedStorage'))
